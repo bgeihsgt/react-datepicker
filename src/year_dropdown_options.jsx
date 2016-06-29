@@ -2,8 +2,8 @@ import React from 'react'
 
 function generateYears (year) {
   var list = []
-  for (var i = 0; i < 5; i++) {
-    list.push(year - i)
+  for (var i = 4; i >= 0; i--) {
+    list.push(year + i)
   }
   return list
 }
